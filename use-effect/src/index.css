@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+}
+
+.list-users,
+.user-info__list {
+    width: 350px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.list-item {
+    padding: 15px;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+}
+
+.user-info__list li:first-child {
+    margin-bottom: -4px;
+    padding: 0;
+    border: none;
+}
+.user-img img {
+    width: 100%;
+}
+
